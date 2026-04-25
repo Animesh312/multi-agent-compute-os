@@ -6,7 +6,7 @@ An **OpenEnv-compatible RL environment** where an **LLM is trained via GRPO** to
 
 **Stack: OpenEnv + TRL (GRPO) + Unsloth + Qwen2.5**
 
-Built for the **Meta × PyTorch OpenEnv Hackathon × Scaler School of Technology**.
+Built for the **Meta   × PyTorch OpenEnv Hackathon × Scaler School of Technology**.
 
 ---
 
