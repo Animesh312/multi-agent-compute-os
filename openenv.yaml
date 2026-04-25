@@ -1,0 +1,14 @@
+name: adaptive_os_env
+description: AI environment for OS scheduling
+
+tasks:
+  - easy
+  - medium
+  - hard
+
+entrypoint: api/server.py
+
+api:
+  reset: /reset
+  step: /step
+  state: /state

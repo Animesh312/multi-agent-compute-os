@@ -1,0 +1,21 @@
+[project]
+name = "adaptive-os-openenv"
+version = "0.1.0"
+description = "Adaptive OS Scheduling OpenEnv environment"
+authors = [{ name = "Animesh" }]
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pydantic",
+    "openenv-core>=0.2.0"
+]
+
+[project.scripts]
+server = "server.app:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
