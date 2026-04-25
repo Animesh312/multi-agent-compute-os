@@ -1,0 +1,59 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.Python
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Trained Models (large files)
+*.zip
+ppo_adaptive_os.zip
+models/
+checkpoints/
+learning_curve.npy
+
+# Logs
+*.log
+logs/
+*.out
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Personal notes
+learning.md
+notes.md
+TODO.md
+
+# Docker
+*.dockerfile.swp
+
+# System files
+Thumbs.db
+desktop.ini

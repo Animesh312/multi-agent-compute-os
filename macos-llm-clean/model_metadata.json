@@ -1,0 +1,23 @@
+{
+  "model_name": "MACOS-GRPO-Qwen2.5-1.5B-v2",
+  "base_model": "unsloth/Qwen2.5-1.5B-Instruct",
+  "method": "GRPO (Group Relative Policy Optimization) v2",
+  "epochs": 2,
+  "training_samples": 500,
+  "training_time_minutes": 142.3,
+  "reward_verifiers": [
+    "format_reward",
+    "valid_action_reward",
+    "contextual_reward",
+    "reasoning_reward"
+  ],
+  "reward_improvements": [
+    "contextual_reward scaled 3x (was 1x)",
+    "kill penalty for CPU < 85%",
+    "soft-action bonus for moderate states",
+    "state-aware reasoning_reward"
+  ],
+  "lora_r": 16,
+  "quantization": "4-bit",
+  "timestamp": "2026-04-25T17:24:47.707467"
+}
