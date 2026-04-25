@@ -1,0 +1,17 @@
+{
+  "model_name": "MACOS-GRPO-Qwen2.5-1.5B",
+  "base_model": "unsloth/Qwen2.5-1.5B-Instruct",
+  "method": "GRPO (Group Relative Policy Optimization)",
+  "epochs": 1,
+  "training_samples": 500,
+  "training_time_minutes": 78.8,
+  "reward_verifiers": [
+    "format_reward",
+    "valid_action_reward",
+    "contextual_reward",
+    "reasoning_reward"
+  ],
+  "lora_r": 16,
+  "quantization": "4-bit",
+  "timestamp": "2026-04-24T20:29:35.049470"
+}
